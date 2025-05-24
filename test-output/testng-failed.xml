@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TicketorSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SanityTests(failed)">
+    <classes>
+      <class name="tests.SanityTest">
+        <methods>
+          <include name="sanityTest_siteLoads"/>
+        </methods>
+      </class> <!-- tests.SanityTest -->
+    </classes>
+  </test> <!-- SanityTests(failed) -->
+</suite> <!-- Failed suite [TicketorSuite] -->
